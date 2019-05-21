@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LoginwithRetrofitOkHttp</string>
+    <string name="msg_enter_credentials">Enter email and username!</string>
+    <string name="msg_unknown">Unknown error occurred! Please try again. Check Android Studio\'s LogCat for detailed error report.</string>
+    <string name="error">Error</string>
+</resources>
