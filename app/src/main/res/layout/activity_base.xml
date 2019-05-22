@@ -13,13 +13,7 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@android:color/white"
-            android:theme="@style/ToolbarTheme"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+     <include layout="@layout/toolbar"/>
 
         <ProgressBar
             android:id="@+id/progress_bar"
@@ -30,7 +24,7 @@
             android:layout_marginBottom="-7dp"
             android:indeterminate="true"
             android:theme="@style/LinearProgress"
-            android:visibility="gone" />
+            android:visibility="visible" />
 
     </android.support.design.widget.AppBarLayout>
 
