@@ -79,7 +79,7 @@ public class LoginActivity extends BaseActivity {
                     Log.v("status", response.body().get(i).Status );
                 }
                 Toast.makeText(getApplicationContext(),response.body().get(0).Status +"deepak", Toast.LENGTH_LONG).show();
-              //  launchSplash(LoginActivity.this);
+                launchSplash(LoginActivity.this);
             }
 
             @Override
